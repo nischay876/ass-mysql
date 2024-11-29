@@ -1,0 +1,32 @@
+{
+  "name": "@nischa876/ass-mysql",
+  "version": "0.1.8",
+  "description": "ass MySQL StorageEngine",
+  "main": "MYSQLStorageEngine.js",
+  "engines": {
+    "node": ">=14.x.x",
+    "npm": ">=7.x.x"
+  },
+  "scripts": {
+    "test": "echo \"balls\" && exit 0"
+  },
+  "repository": "github:nischay876/ass-mysql",
+  "keywords": [
+    "ass",
+    "sharex",
+    "mysql"
+  ],
+  "author": "tycrek <t@tycrek.com> (https://tycrek.com/)",
+  "license": "ISC",
+  "bugs": "https://github.com/nischay876/ass-mysql/issues",
+  "homepage": "https://github.com/nischay876/ass-mysql#readme",
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/nischay876"
+  },
+  "dependencies": {
+    "@tycrek/ass-storage-engine": "^0.2.6",
+    "deepmerge": "^4.2.2",
+    "mysql2": "^3.11.5"
+  }
+}
